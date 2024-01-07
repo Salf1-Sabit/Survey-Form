@@ -15,7 +15,7 @@ This project, part of the FreeCodeCamp.org Responsive Web Design course, focuses
 - CSS3
 
 ## Usage
-Explore this project to understand the implementation of a feedback and suggestions survey using HTML and CSS. The live demo can be viewed [here](link_to_live_demo).
+Explore this project to understand the implementation of a feedback and suggestions survey using HTML and CSS. The live demo can be viewed [here](https://survey-form-99.netlify.app/).
 
 ## How to Contribute
 Contributions aimed at enhancing the project's code structure, design improvements, or additional features are welcomed. Fork this repository, make necessary changes, and submit a pull request for review.
