@@ -1,6 +1,6 @@
 # Survey Form - Feedback and Suggestions
 
-![Feedback and Suggestions Survey](link_to_image)
+![Feedback and Suggestions Survey](https://github.com/Salf1-Sabit/Survey-form/assets/70028517/c2ca1599-d0eb-4ce2-990a-61996411b6a8)
 
 ## Overview
 This project, part of the FreeCodeCamp.org Responsive Web Design course, focuses on creating a feedback and suggestions survey form. It enables users to provide feedback on various aspects by collecting information such as name, email, age, reason for feedback, satisfaction level, areas for improvement, and open-ended feedback through a textarea. The main objective is to gain practical knowledge in working with form elements, styling, and management using HTML and CSS.
