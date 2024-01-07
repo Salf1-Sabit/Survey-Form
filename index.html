@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Feedback and Suggestions Survey</h1>
+    <p id="description">Your feedback is invaluable in improving our platform. Thank you!</p>
+    <form id="survey-form">
+      <section class="top-section">
+          <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required /></label>
+          <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
+          <label id="number-label" for="number">Age <span class="optional-text">(optional)</span> <input id="number" type="number" placeholder="Age" min="13" max="120"/></label>
+          <label>
+            Reason for Feedback
+            <select id="dropdown">
+              <option>Select an option </option>
+              <option>Bug Report</option>
+              <option>Feature Request</option>
+              <option>General Feedback</option>
+              <option>Complaint</option>
+            </select>
+          </label>
+      </section>
+      <section class="radio-group">
+        <label class="group-heading">Satisfaction Level</label>
+        <label><input value="radio 1" type="radio" name="radio-group" checked/> Very Satisfied</label>
+        <label><input value="radio 2" type="radio" name="radio-group"/> Satisfied</label>
+        <label><input value="radio 3" type="radio" name="radio-group"/> Neutral</label>
+        <label><input value="radio 4" type="radio" name="radio-group"/> Dissatisfied</label>
+        <label><input value="radio 5" type="radio" name="radio-group"/> Very Dissatisfied</label>
+      </section>
+      <section class="checkbox-group">
+          <label class="group-heading">Areas for Improvement</label>
+          <label><input type="checkbox" value="1" /> Website Layout/Design</label>
+          <label><input type="checkbox" value="2" /> Performance Speed</label>
+          <label><input type="checkbox" value="3" /> Content Quality</label>
+          <label><input type="checkbox" value="4" /> Customer Support</label>
+          <label><input type="checkbox" value="5" /> Payment Options</label>
+      </section>
+      <label>Your Feedback and Suggestions <textarea rows="8" placeholder="Please share your thoughts and suggestions here."></textarea></label>
+      <input id="submit" type="submit" value="Submit"></input>
+    </form>
+  </body>
+</html>
